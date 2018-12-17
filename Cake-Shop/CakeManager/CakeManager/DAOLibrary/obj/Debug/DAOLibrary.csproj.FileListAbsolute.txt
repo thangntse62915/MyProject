@@ -1,0 +1,35 @@
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.dll.config
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.pdb
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.xml
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.csproj.CopyComplete
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.dll.config
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.xml
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.csproj.CopyComplete
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\DAOLibrary.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOLibrary\obj\Debug\DAOLibrary.pdb

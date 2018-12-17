@@ -1,0 +1,27 @@
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\bin\Debug\DAOs.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\bin\Debug\DAOs.pdb
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\bin\Debug\Data.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\bin\Debug\Data.pdb
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\bin\Debug\DAOs.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\bin\Debug\DAOs.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\bin\Debug\Data.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\bin\Debug\Data.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csproj.CopyComplete
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\bin\Debug\DAOs.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\bin\Debug\DAOs.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\bin\Debug\Data.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\bin\Debug\Data.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\DAOs\obj\Debug\DAOs.pdb

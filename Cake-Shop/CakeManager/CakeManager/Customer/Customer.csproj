@@ -1,0 +1,353 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B3E84BD-2193-41DF-9F29-385D76D2415D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Customer</RootNamespace>
+    <AssemblyName>Customer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Home.aspx" />
+    <Content Include="Employee.aspx" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="img\air-force-1-high-07-mens-shoe.jpg" />
+    <Content Include="img\air-jordan-5-retro-mens-shoe.jpg" />
+    <Content Include="img\ASICS\h1.jpg" />
+    <Content Include="img\banner1.jpg" />
+    <Content Include="img\banner2.jpg" />
+    <Content Include="img\banner4.jpg" />
+    <Content Include="img\card\download %281%29.png" />
+    <Content Include="img\card\download.jpg" />
+    <Content Include="img\card\download.png" />
+    <Content Include="img\card\images.jpg" />
+    <Content Include="img\card\images.png" />
+    <Content Include="img\card\imgres.html" />
+    <Content Include="img\cart.png" />
+    <Content Include="img\Credit-Card-and-Payment-Icons.jpg" />
+    <Content Include="img\fn103017_cover.jpg" />
+    <Content Include="img\footer-icon-card.png" />
+    <Content Include="img\footer1.png" />
+    <Content Include="img\footer2.jpg" />
+    <Content Include="img\footer3.jpg" />
+    <Content Include="img\Giro\img1.jpg" />
+    <Content Include="img\Giro\img2.jpg" />
+    <Content Include="img\Giro\img3.jpg" />
+    <Content Include="img\Giro\img4.jpg" />
+    <Content Include="img\Giro\img5.jpg" />
+    <Content Include="img\Giro\img6.jpg" />
+    <Content Include="img\Giro\img7.jpg" />
+    <Content Include="img\Giro\logo.jpg" />
+    <Content Include="img\hinh1.jpg" />
+    <Content Include="img\hinh2.jpg" />
+    <Content Include="img\hinh3.jpg" />
+    <Content Include="img\hinh4.jpg" />
+    <Content Include="img\hinh5.jpg" />
+    <Content Include="img\hinh6.jpg" />
+    <Content Include="img\hinh7.jpg" />
+    <Content Include="img\images.jpg" />
+    <Content Include="img\img1_left_bot.png" />
+    <Content Include="img\img1_vomen.gif" />
+    <Content Include="img\img2_left_bot.png" />
+    <Content Include="img\img2_vomen.gif" />
+    <Content Include="img\img3_left_bot.png" />
+    <Content Include="img\img3_vomen.gif" />
+    <Content Include="img\img4_left_bot.png" />
+    <Content Include="img\img4_vomen.gif" />
+    <Content Include="img\imgmen\c1.jpg" />
+    <Content Include="img\imgmen\c10.jpg" />
+    <Content Include="img\imgmen\c11.jpg" />
+    <Content Include="img\imgmen\c12.jpg" />
+    <Content Include="img\imgmen\c2.jpg" />
+    <Content Include="img\imgmen\c3.jpg" />
+    <Content Include="img\imgmen\c4.jpg" />
+    <Content Include="img\imgmen\c5.jpg" />
+    <Content Include="img\imgmen\c6.jpg" />
+    <Content Include="img\imgmen\c7.jpg" />
+    <Content Include="img\imgmen\c8.jpg" />
+    <Content Include="img\imgmen\c9.jpg" />
+    <Content Include="img\imgmen\hinh1.jpg" />
+    <Content Include="img\imgmen\hinh10.jpg" />
+    <Content Include="img\imgmen\hinh11.jpg" />
+    <Content Include="img\imgmen\hinh12.jpg" />
+    <Content Include="img\imgmen\hinh13.jpg" />
+    <Content Include="img\imgmen\hinh14.jpg" />
+    <Content Include="img\imgmen\hinh15.jpg" />
+    <Content Include="img\imgmen\hinh2.jpg" />
+    <Content Include="img\imgmen\hinh3.jpg" />
+    <Content Include="img\imgmen\hinh4.jpg" />
+    <Content Include="img\imgmen\hinh5.jpg" />
+    <Content Include="img\imgmen\hinh6.jpg" />
+    <Content Include="img\imgmen\hinh7.jpg" />
+    <Content Include="img\imgmen\hinh8.jpg" />
+    <Content Include="img\imgmen\hinh9.jpg" />
+    <Content Include="img\imgmen\k1.jpg" />
+    <Content Include="img\imgmen\k10.jpg" />
+    <Content Include="img\imgmen\k11.jpg" />
+    <Content Include="img\imgmen\k12.jpg" />
+    <Content Include="img\imgmen\k2.jpg" />
+    <Content Include="img\imgmen\k3.jpg" />
+    <Content Include="img\imgmen\k4.jpg" />
+    <Content Include="img\imgmen\k5.jpg" />
+    <Content Include="img\imgmen\K6.jpg" />
+    <Content Include="img\imgmen\k7.jpg" />
+    <Content Include="img\imgmen\k8.jpg" />
+    <Content Include="img\imgmen\k9.jpg" />
+    <Content Include="img\imgmen\m1.jpg" />
+    <Content Include="img\imgmen\m10.jpg" />
+    <Content Include="img\imgmen\m11.jpg" />
+    <Content Include="img\imgmen\m12.jpg" />
+    <Content Include="img\imgmen\m2.jpg" />
+    <Content Include="img\imgmen\m3.jpg" />
+    <Content Include="img\imgmen\m4.jpg" />
+    <Content Include="img\imgmen\m5.jpg" />
+    <Content Include="img\imgmen\m6.jpg" />
+    <Content Include="img\imgmen\m7.jpg" />
+    <Content Include="img\imgmen\m8.jpg" />
+    <Content Include="img\imgmen\m9.jpg" />
+    <Content Include="img\imgmen\SE1271.png" />
+    <Content Include="img\imgmen\wm1.jpg" />
+    <Content Include="img\imgmen\wm10.jpg" />
+    <Content Include="img\imgmen\wm11.jpg" />
+    <Content Include="img\imgmen\wm2_.jpg" />
+    <Content Include="img\imgmen\wm3.jpg" />
+    <Content Include="img\imgmen\wm4.jpg" />
+    <Content Include="img\imgmen\wm5.jpg" />
+    <Content Include="img\imgmen\wm6.jpg" />
+    <Content Include="img\imgmen\wm7.jpg" />
+    <Content Include="img\imgmen\wm8.jpg" />
+    <Content Include="img\imgmen\wm9.jpg" />
+    <Content Include="img\kid1.jpg" />
+    <Content Include="img\kid2.jpg" />
+    <Content Include="img\kid3.jpg" />
+    <Content Include="img\left_img.jpg" />
+    <Content Include="img\lmm.jpg" />
+    <Content Include="img\logo-men1.jpg" />
+    <Content Include="img\logo-mwc %281%29.png" />
+    <Content Include="img\logo-mwc.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo1.png" />
+    <Content Include="img\logo2.png" />
+    <Content Include="img\logo3.jpg" />
+    <Content Include="img\logo3.png" />
+    <Content Include="img\logo4.gif" />
+    <Content Include="img\logo4.png" />
+    <Content Include="img\logo5.png" />
+    <Content Include="img\logo7.png" />
+    <Content Include="img\men1.jpg" />
+    <Content Include="img\men2.jpg" />
+    <Content Include="img\men3.jpg" />
+    <Content Include="img\myshop.jpg" />
+    <Content Include="img\new.gif" />
+    <Content Include="img\new1.jpg" />
+    <Content Include="img\new2.jpg" />
+    <Content Include="img\new3.jpg" />
+    <Content Include="img\new4.jpg" />
+    <Content Include="img\new5.jpg" />
+    <Content Include="img\new6.jpg" />
+    <Content Include="img\new7.jpg" />
+    <Content Include="img\right1.jpg" />
+    <Content Include="img\right2.jpg" />
+    <Content Include="img\saleandhot\men1.jpg" />
+    <Content Include="img\saleandhot\men2.jpg" />
+    <Content Include="img\saleandhot\men3 - Copy.jpg" />
+    <Content Include="img\saleandhot\men3.jpg" />
+    <Content Include="img\saleandhot\men4.jpg" />
+    <Content Include="img\saleandhot\men5.jpg" />
+    <Content Include="img\saleandhot\vomen1.jpg" />
+    <Content Include="img\saleandhot\vomen2.jpg" />
+    <Content Include="img\saleandhot\vomen3.jpg" />
+    <Content Include="img\saleandhot\vomen4.jpg" />
+    <Content Include="img\slideshow_1.jpg" />
+    <Content Include="img\slideshow_2.jpg" />
+    <Content Include="img\slideshow_3.jpg" />
+    <Content Include="img\thuonghieu.png" />
+    <Content Include="img\under-armour-curry-4-championship-pack-8.jpg" />
+    <Content Include="img\wc1.jpg" />
+    <Content Include="img\wc2.jpg" />
+    <Content Include="img\wc3.jpg" />
+    <Content Include="img\wc4.jpg" />
+    <Content Include="img\wc5.gif" />
+    <Content Include="main.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.aspx.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee.aspx.designer.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="font-awesome-4.7.0\less\animated.less" />
+    <Content Include="font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="font-awesome-4.7.0\less\core.less" />
+    <Content Include="font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="font-awesome-4.7.0\less\icons.less" />
+    <Content Include="font-awesome-4.7.0\less\larger.less" />
+    <Content Include="font-awesome-4.7.0\less\list.less" />
+    <Content Include="font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="font-awesome-4.7.0\less\path.less" />
+    <Content Include="font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="font-awesome-4.7.0\less\variables.less" />
+    <Content Include="font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_variables.scss" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAOLibrary\DAOLibrary.csproj">
+      <Project>{65e3ceec-4c82-4441-80d1-f921f14c00d8}</Project>
+      <Name>DAOLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49213</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49213/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,131 @@
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\CakeManager.exe.config
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\CakeManager.exe
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\CakeManager.pdb
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.csprojAssemblyReference.cache
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.Form1.resources
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.Properties.Resources.resources
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.GenerateResource.cache
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.CoreCompileInputs.cache
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.exe
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.pdb
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\BookLibrary.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.Core.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\Bunifu_UI_v1.5.3.dll
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\bin\Debug\BookLibrary.pdb
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.CopyComplete
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.DashBoard.resources
+F:\FPT\CN5\ProjectC#\CakeManager\CakeManager\obj\Debug\CakeManager.Cake.resources
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\bin\Debug\CakeManager.exe.config
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\bin\Debug\CakeManager.exe
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\bin\Debug\CakeManager.pdb
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.Cake.resources
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.DashBoard.resources
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.Form1.resources
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.Properties.Resources.resources
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.GenerateResource.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.CopyComplete
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.exe
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\obj\Debug\CakeManager.pdb
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\CakeManager.exe.config
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\CakeManager.exe
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\CakeManager.pdb
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.Core.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.Cake.resources
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.DashBoard.resources
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.Form1.resources
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.Properties.Resources.resources
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.GenerateResource.cache
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.exe
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.pdb
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.News.resources
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\DAOs.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Data.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\DAOs.pdb
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\CakeManager\bin\Debug\Data.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\CakeManager.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\CakeManager.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\CakeManager.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.Core.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\DAOLibrary.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\DAOs.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Data.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\EntityFramework.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\DAOLibrary.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\DAOLibrary.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\DAOs.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\Data.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\EntityFramework.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.Cake.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.DashBoard.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.FrmCustomer.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.frmEmployee.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.Order.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.Properties.Resources.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.UserControl1.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.GenerateResource.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\CakeManager\obj\Debug\CakeManager.FrmLogin.resources

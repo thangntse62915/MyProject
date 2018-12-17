@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67D833B7-BD99-430F-A34F-7F5301CFAA48}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CakeManager</RootNamespace>
+    <AssemblyName>CakeManager</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\THANG NGUYEN\Downloads\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCake.Designer.cs">
+      <DependentUpon>FrmCake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomer.Designer.cs">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployee.Designer.cs">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrder.designer.cs">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NavigatorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NavigatorControl.designer.cs">
+      <DependentUpon>NavigatorControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmHome.resx">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCake.resx">
+      <DependentUpon>FrmCake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployee.resx">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrder.resx">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="NavigatorControl.resx">
+      <DependentUpon>NavigatorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Bunifu.Core.Auth.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Core.Drawing.BunifuColorTransition.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Core.forms.frmLicenseInfo.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Core.forms.licensing.inputBox.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Core.Mode.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Core.TraceLog.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.BunifuCustomTextbox.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.BunifuDeveloperLicenseStatus.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.Lib.Elipse.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.Lib.identity.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.Lib.RestAPI.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.License+UserType.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.License.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.LICENSE.License.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.LicenseObject.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuCards.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuCheckbox.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuCircleProgressbar.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuColorTransition.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuCustomControl.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuCustomDataGrid.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuCustomLabel.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuDatepicker.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuDragControl.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuDropdown.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuElipse.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuFlatButton.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuForm.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuFormFadeTransition.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuGauge.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuGradientPanel.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuHTTP_Utils.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuImageButton.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuiOSSwitch.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuMaterialTextbox.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuMetroTextbox.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuProgressBar.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuRange.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuRating.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuSearchEngine.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuSeparator.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuSlider.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuSwitch.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuThinButton2.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuTileButton.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuTrackbar.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuUserControl.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuVTrackbar.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.BunifuWebClient.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Framework.UI.Drag.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Bson.BsonObjectId.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Bson.BsonReader.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Bson.BsonWriter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.BinaryConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.BsonObjectIdConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.DataSetConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.DataTableConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.DateTimeConverterBase.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.DiscriminatedUnionConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.EntityKeyMemberConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.ExpandoObjectConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.IsoDateTimeConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.JavaScriptDateTimeConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.KeyValuePairConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.RegexConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.StringEnumConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.UnixDateTimeConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.VersionConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Converters.XmlNodeConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.IJsonLineInfo.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonArrayAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonConstructorAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonContainerAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonConvert.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonConverterAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonConverterCollection.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonDictionaryAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonException.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonExtensionDataAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonIgnoreAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonObjectAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonPropertyAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonReader.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonReaderException.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonRequiredAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonSerializationException.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonSerializer.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonSerializerSettings.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonTextReader.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonTextWriter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonValidatingReader.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonWriter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.JsonWriterException.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.Extensions.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JArray.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JConstructor.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JContainer.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JObject.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JProperty.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JPropertyDescriptor.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JRaw.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JsonLoadSettings.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JsonMergeSettings.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JToken.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JTokenEqualityComparer.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JTokenReader.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JTokenWriter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Linq.JValue.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Schema.Extensions.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Schema.JsonSchema.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Schema.JsonSchemaException.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Schema.JsonSchemaGenerator.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Schema.JsonSchemaResolver.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Schema.ValidationEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Schema.ValidationEventHandler.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.CamelCaseNamingStrategy.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.CamelCasePropertyNamesContractResolver.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.DefaultContractResolver.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.DefaultNamingStrategy.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.DefaultSerializationBinder.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.DiagnosticsTraceWriter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.DynamicValueProvider.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ErrorContext.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ErrorEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ExpressionValueProvider.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ExtensionDataGetter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ExtensionDataSetter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.IAttributeProvider.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.IContractResolver.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.IReferenceResolver.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ISerializationBinder.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ITraceWriter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.IValueProvider.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonArrayContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonContainerContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonDictionaryContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonDynamicContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonISerializableContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonLinqContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonObjectContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonPrimitiveContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonProperty.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonPropertyCollection.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.JsonStringContract.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.MemoryTraceWriter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.NamingStrategy.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.OnErrorAttribute.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ReflectionAttributeProvider.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.ReflectionValueProvider.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.SerializationCallback.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.SerializationErrorCallback.datasource" />
+    <None Include="Properties\DataSources\Bunifu.Json.Serialization.SnakeCaseNamingStrategy.datasource" />
+    <None Include="Properties\DataSources\Bunifu.ToggleSwitch.BunifuToggleSwitch.datasource" />
+    <None Include="Properties\DataSources\Bunifu.ToggleSwitch.ToggleState.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuAnimatorNS.Animation.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuAnimatorNS.Controller.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuAnimatorNS.DoubleBitmapControl.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuAnimatorNS.DoubleBitmapForm.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuAnimatorNS.Flags+WindowStyles.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuAnimatorNS.Flags.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuAnimatorNS.IFakeControl.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuAnimatorNS.PointFConverter.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuButton.BunifuButton+StateProperties.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuButton.BunifuButton.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+BindingControlChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+BindingControlPositions.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+BunifuCheckBoxActionList.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+BunifuDesigner.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+CheckBoxStyles.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+CheckedChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+CheckStates.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+PositionChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+StatePropertiesChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox+StylePropertyChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCheckBox.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuCircleProgress.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDatePicker+BorderThickness.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDatePicker+Indicator.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDatePicker+TextAlign.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDatePicker.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDropdown+BorderThickness.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDropdown+Directions.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDropdown+Indicator.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDropdown+TextAlign.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuDropdown.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuFormDock+BunifuWindowStates.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuFormDock+DockChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuFormDock+DockIndicators.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuFormDock+DockPositions.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuFormDock+FormDraggingEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuFormDock+FormWindowStates.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuFormDock.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar+BunifuDesigner.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar+BunifuHScrollBarActionList.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar+Direction.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar+MouseCaptureChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar+ScrollBarState.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar+ScrollEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar+ThumbStyles.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar+ValueChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuHScrollBar.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuImageButton+BunifuDesigner.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuImageButton+BunifuLabelActionList.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuImageButton+FlipOrientation.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuImageButton.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuLabel+BunifuDesigner.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuLabel+BunifuLabelActionList.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuLabel+TextAlignments.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuLabel.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuPictureBox+Types.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuPictureBox.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.Winforms.BunifuProgressBar.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuRadioButton.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox+_Style.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuTransition+AnimateMode.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuTransition+AnimationCompletedEventArg.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuTransition+DecorationType.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuTransition+NonLinearTransfromNeededEventArg.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuTransition+TransfromNeededEventArg.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuTransition.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar+BunifuDesigner.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar+BunifuVScrollBarActionList.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar+Direction.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar+MouseCaptureChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar+ScrollBarState.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar+ScrollEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar+ThumbStyles.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar+ValueChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.BunifuVScrollBar.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.CheckBoxState.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.DockOptions.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.Ellipsis+EllipsisFormat.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.Ellipsis.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.Indicator.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.TitleBarOptions.datasource" />
+    <None Include="Properties\DataSources\Bunifu.UI.WinForms.WindowHandler.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.Animation.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.AnimationCompletedEventArg.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.BunifuTransition.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.Controller.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.DoubleBitmapControl.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.DoubleBitmapForm.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.Flags+WindowStyles.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.Flags.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.IFakeControl.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.NonLinearTransfromNeededEventArg.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.PointFConverter.datasource" />
+    <None Include="Properties\DataSources\BunifuAnimatorNS.TransfromNeededEventArg.datasource" />
+    <None Include="Properties\DataSources\BunifuColorEditor+ColorUIWrapper.datasource" />
+    <None Include="Properties\DataSources\BunifuColorEditor.datasource" />
+    <None Include="Properties\DataSources\BunifuColorTransition.BunifuColorTransition.datasource" />
+    <None Include="Properties\DataSources\BunifuLC.Globals.datasource" />
+    <None Include="Properties\DataSources\BunifuLC.License+ResponseType.datasource" />
+    <None Include="Properties\DataSources\BunifuLC.License+UserType.datasource" />
+    <None Include="Properties\DataSources\BunifuLC.License.datasource" />
+    <None Include="Properties\DataSources\BunifuLC.LicenseObject.datasource" />
+    <None Include="Properties\DataSources\BunifuLC.LicenseStatus.datasource" />
+    <None Include="Properties\DataSources\BunifuVSIX.forms.Bunifu_Licensing.datasource" />
+    <None Include="Properties\DataSources\BunifuVSIX.forms.CWebClient.datasource" />
+    <None Include="Properties\DataSources\BunifuVSIX.forms.installer.datasource" />
+    <None Include="Properties\DataSources\BunifuVSIX.forms.lic_md.datasource" />
+    <None Include="Properties\DataSources\BunifuVSIX.forms.Loader.datasource" />
+    <None Include="Properties\DataSources\CodyDocs.forms.tabLicenses.datasource" />
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.Entities.RColor.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.Entities.RKeyEvent.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.Entities.RMouseEvent.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.Entities.RPoint.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.Entities.RRect.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.Entities.RSize.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RAdapter.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RBrush.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RContextMenu.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RControl.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RFont.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RFontFamily.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RGraphics.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RGraphicsPath+Corner.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RGraphicsPath.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RImage.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Adapters.RPen.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.CssData.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.CssBlock.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.CssBlockSelectorItem.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.HtmlImageLoadCallback.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.HtmlImageLoadEventArgs.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.HtmlLinkClickedEventArgs.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.HtmlLinkClickedException.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.HtmlRefreshEventArgs.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.HtmlRenderErrorEventArgs.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.HtmlScrollEventArgs.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Entities.HtmlStylesheetLoadEventArgs.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Handlers.DownloadFileAsyncCallback.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.HtmlContainerInt.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.HtmlRendererUtils.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.Core.Utils.ArgChecker.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.WinForms.HtmlContainer.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.WinForms.HtmlRender.datasource" />
+    <None Include="Properties\DataSources\TheArtOfDev.HtmlRenderer.WinForms.MetafileExtensions.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.ITransitionType.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.ReflectionHelper.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.Transition+Args.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.Transition.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionElement.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_Acceleration.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_Bounce.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_CriticalDamping.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_Deceleration.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_EaseInEaseOut.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_Flash.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_Linear.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_ThrowAndCatch.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuCheckBox.Transitions.TransitionType_UserDefined.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.ITransitionType.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.ReflectionHelper.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.Transition+Args.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.Transition.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionElement.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_Acceleration.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_Bounce.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_CriticalDamping.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_Deceleration.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_EaseInEaseOut.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_Flash.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_Linear.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_ThrowAndCatch.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuFormDock.Transitions.TransitionType_UserDefined.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.ImageExtensions+FlipOrientation.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.ImageExtensions.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.ITransitionType.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.ReflectionHelper.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.Transition+Args.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.Transition.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionElement.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_Acceleration.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_Bounce.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_CriticalDamping.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_Deceleration.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_EaseInEaseOut.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_Flash.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_Linear.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_ThrowAndCatch.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuImageButton.Transitions.TransitionType_UserDefined.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.ITransitionType.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.ReflectionHelper.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.Transition+Args.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.Transition.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionElement.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_Acceleration.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_Bounce.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_CriticalDamping.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_Deceleration.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_EaseInEaseOut.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_Flash.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_Linear.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_ThrowAndCatch.datasource" />
+    <None Include="Properties\DataSources\Utilities.BunifuScrollBar.Transitions.TransitionType_UserDefined.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsControlLibrary1.AtestControl.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsControlLibrary1.BunifuCustomTextbox.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsControlLibrary1.transparentBg1.datasource" />
+    <None Include="Properties\DataSources\{FE3C441D-DF9D-407b-917D-0B4471A8296C}.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAOLibrary\DAOLibrary.csproj">
+      <Project>{65e3ceec-4c82-4441-80d1-f921f14c00d8}</Project>
+      <Name>DAOLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAOs\DAOs.csproj">
+      <Project>{9489bf72-afbd-495c-868b-6e542dbacdb1}</Project>
+      <Name>DAOs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{6d7c2c81-a7ac-44e1-bb82-960465ee05cd}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Session\Session.csproj">
+      <Project>{03c24d38-2d7c-4fbd-97e4-1e77cfc6dcb5}</Project>
+      <Name>Session</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\cake.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,9 @@
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\bin\Debug\Session.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\bin\Debug\Session.pdb
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\bin\Debug\DTOLibrary.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\bin\Debug\DTOLibrary.pdb
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.csproj.CopyComplete
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.pdb

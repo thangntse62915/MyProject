@@ -1,0 +1,66 @@
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\frmEmployee.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\frmEmployee.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\frmEmployee.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\DAOLibrary.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\EntityFramework.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\DAOLibrary.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\DAOLibrary.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\EntityFramework.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.CreateCustomer.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.FindCustomer.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.LoginBakery.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.Properties.Resources.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.SellForm.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.ChangePassword.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.GenerateResource.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\frmEmployee.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\frmEmployee.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\frmEmployee.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\DAOLibrary.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\EntityFramework.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\DAOLibrary.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\DAOLibrary.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\EntityFramework.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\frmEmployee.CreateCustomer.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\frmEmployee.FindCustomer.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\frmEmployee.LoginBakery.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\frmEmployee.Properties.Resources.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\frmEmployee.SellForm.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\frmEmployee.ChangePassword.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.GenerateResource.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\frmEmployee.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\frmEmployee\obj\Debug\frmEmployee.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\frmEmployee.exe.config
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\frmEmployee.exe
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\frmEmployee.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\DAOLibrary.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\EntityFramework.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\DAOLibrary.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\DAOLibrary.dll.config
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\EntityFramework.xml
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\frmEmployee.CreateCustomer.resources
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\frmEmployee.FindCustomer.resources
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\frmEmployee.LoginBakery.resources
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\frmEmployee.Properties.Resources.resources
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\frmEmployee.SellForm.resources
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\frmEmployee.ChangePassword.resources
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.GenerateResource.cache
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\EmployeeSell.csproj.CopyComplete
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\frmEmployee.exe
+D:\Users\ASUS\Desktop\Last\CakeManager\frmEmployee\obj\Debug\frmEmployee.pdb

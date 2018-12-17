@@ -1,0 +1,33 @@
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\bin\Debug\Session.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\bin\Debug\Session.pdb
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\bin\Debug\DTOLibrary.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\bin\Debug\DTOLibrary.pdb
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.csproj.CopyComplete
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.dll
+D:\Users\ASUS\Desktop\project C#\CakeManager\CakeManager\Session\obj\Debug\Session.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\bin\Debug\Session.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\bin\Debug\Session.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\bin\Debug\DAOLibrary.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\bin\Debug\EntityFramework.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\bin\Debug\DAOLibrary.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\bin\Debug\DAOLibrary.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\bin\Debug\EntityFramework.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\obj\Debug\Session.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\obj\Debug\Session.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\obj\Debug\Session.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\obj\Debug\Session.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\Session\obj\Debug\Session.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\bin\Debug\Session.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\bin\Debug\Session.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\bin\Debug\DAOLibrary.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\bin\Debug\EntityFramework.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\bin\Debug\DAOLibrary.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\bin\Debug\DAOLibrary.dll.config
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\bin\Debug\EntityFramework.xml
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\obj\Debug\Session.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\obj\Debug\Session.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\obj\Debug\Session.csproj.CopyComplete
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\obj\Debug\Session.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\Session\obj\Debug\Session.pdb

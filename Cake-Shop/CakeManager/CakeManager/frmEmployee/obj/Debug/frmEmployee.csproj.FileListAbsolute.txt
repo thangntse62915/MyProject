@@ -1,0 +1,9 @@
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\frmEmployee.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\frmEmployee.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\bin\Debug\frmEmployee.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.Properties.Resources.resources
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.csproj.GenerateResource.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\frmEmployee\obj\Debug\frmEmployee.pdb

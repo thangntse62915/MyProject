@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="450dbec9e39c4760bfe1cf2d09d91c25" Name="Diagram1">
+        <EntityTypeShape EntityType="CakeShopModel.Employee" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="CakeShopModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CakeShopModel.tblCake" Width="1.5" PointX="3" PointY="6.375" />
+        <EntityTypeShape EntityType="CakeShopModel.tblCategory" Width="1.5" PointX="0.75" PointY="7.125" />
+        <EntityTypeShape EntityType="CakeShopModel.tblCustomer" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="CakeShopModel.tblOrder" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="CakeShopModel.tblOrderDetail" Width="1.5" PointX="5.25" PointY="1.375" />
+        <EntityTypeShape EntityType="CakeShopModel.tblShop" Width="1.5" PointX="7.75" PointY="3.75" />
+        <AssociationConnector Association="CakeShopModel.FK_tblCake_tblCategory" />
+        <AssociationConnector Association="CakeShopModel.FK_tblOrderDetail_tblCake" />
+        <AssociationConnector Association="CakeShopModel.FK_tblOrder_tblCustomer" />
+        <AssociationConnector Association="CakeShopModel.FK_tblOrderDetail_tblOrder" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

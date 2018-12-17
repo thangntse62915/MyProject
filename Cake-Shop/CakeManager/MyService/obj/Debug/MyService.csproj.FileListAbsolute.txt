@@ -1,0 +1,252 @@
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\MyService.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\MyService.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\MyService.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csc.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csc.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csc.rsp
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csi.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csi.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csi.rsp
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.AppContext.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Console.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.Compression.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.Pipes.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Claims.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.ValueTuple.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Xml.XPath.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\vbc.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\vbc.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\vbc.rsp
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\VBCSCompiler.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\DAOLibrary.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\EntityFramework.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\EntityFramework.SqlServer.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\DAOLibrary.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\DAOLibrary.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\EntityFramework.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\EntityFramework.SqlServer.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\MyService.dll.config
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\MyService.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\MyService.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csc.exe
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csc.exe.config
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csc.rsp
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csi.exe
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csi.exe.config
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\csi.rsp
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.AppContext.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Console.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.Compression.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.IO.Pipes.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.AccessControl.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Claims.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.ValueTuple.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Xml.XPath.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\vbc.exe
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\vbc.exe.config
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\vbc.rsp
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\VBCSCompiler.exe
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\DAOLibrary.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\EntityFramework.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\EntityFramework.SqlServer.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\DAOLibrary.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\DAOLibrary.dll.config
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\EntityFramework.xml
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\EntityFramework.SqlServer.xml
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.csproj.CopyComplete
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\MyService\obj\Debug\MyService.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\MyService.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\MyService.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\MyService.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\csc.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\csc.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\csc.rsp
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\csi.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\csi.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\csi.rsp
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.AppContext.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Console.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.IO.Compression.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.IO.Pipes.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Security.Claims.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.ValueTuple.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Xml.XPath.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\vbc.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\vbc.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\vbc.rsp
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\VBCSCompiler.exe
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\DAOLibrary.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\EntityFramework.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\EntityFramework.SqlServer.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\DAOLibrary.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\DAOLibrary.dll.config
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\EntityFramework.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\EntityFramework.SqlServer.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\obj\Debug\MyService.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\obj\Debug\MyService.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\obj\Debug\MyService.csproj.CopyComplete
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\obj\Debug\MyService.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\test\CakeManager\MyService\obj\Debug\MyService.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\MyService.dll.config
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\MyService.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\MyService.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\csc.exe
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\csc.exe.config
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\csc.rsp
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\csi.exe
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\csi.exe.config
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\csi.rsp
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.AppContext.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Console.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.IO.Compression.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.IO.Pipes.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Security.AccessControl.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Security.Claims.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.ValueTuple.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Xml.XPath.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\vbc.exe
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\vbc.exe.config
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\vbc.rsp
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\VBCSCompiler.exe
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\DAOLibrary.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\EntityFramework.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\EntityFramework.SqlServer.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\DAOLibrary.pdb
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\DAOLibrary.dll.config
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\EntityFramework.xml
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\EntityFramework.SqlServer.xml
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\obj\Debug\MyService.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\obj\Debug\MyService.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\obj\Debug\MyService.csproj.CopyComplete
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\obj\Debug\MyService.dll
+D:\Users\ASUS\Desktop\Last\CakeManager\MyService\obj\Debug\MyService.pdb

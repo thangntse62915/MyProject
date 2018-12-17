@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CakeShopModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CakeShopEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="CakeShopModel.Employee" />
+    <EntitySet Name="sysdiagrams" EntityType="CakeShopModel.sysdiagram" />
+    <EntitySet Name="tblCakes" EntityType="CakeShopModel.tblCake" />
+    <EntitySet Name="tblCategories" EntityType="CakeShopModel.tblCategory" />
+    <EntitySet Name="tblCustomers" EntityType="CakeShopModel.tblCustomer" />
+    <EntitySet Name="tblOrders" EntityType="CakeShopModel.tblOrder" />
+    <EntitySet Name="tblOrderDetails" EntityType="CakeShopModel.tblOrderDetail" />
+    <EntitySet Name="tblShops" EntityType="CakeShopModel.tblShop" />
+    <AssociationSet Name="FK_tblCake_tblCategory" Association="CakeShopModel.FK_tblCake_tblCategory">
+      <End Role="tblCategory" EntitySet="tblCategories" />
+      <End Role="tblCake" EntitySet="tblCakes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblOrderDetail_tblCake" Association="CakeShopModel.FK_tblOrderDetail_tblCake">
+      <End Role="tblCake" EntitySet="tblCakes" />
+      <End Role="tblOrderDetail" EntitySet="tblOrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblOrder_tblCustomer" Association="CakeShopModel.FK_tblOrder_tblCustomer">
+      <End Role="tblCustomer" EntitySet="tblCustomers" />
+      <End Role="tblOrder" EntitySet="tblOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblOrderDetail_tblOrder" Association="CakeShopModel.FK_tblOrderDetail_tblOrder">
+      <End Role="tblOrder" EntitySet="tblOrders" />
+      <End Role="tblOrderDetail" EntitySet="tblOrderDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="birthday" Type="DateTime" Precision="3" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Card" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+    <Property Name="role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblCake">
+    <Key>
+      <PropertyRef Name="cakeId" />
+    </Key>
+    <Property Name="cakeId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="origin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Double" />
+    <Property Name="bought" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" />
+    <Property Name="categoryId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="img1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tblCategory" Relationship="CakeShopModel.FK_tblCake_tblCategory" FromRole="tblCake" ToRole="tblCategory" />
+    <NavigationProperty Name="tblOrderDetails" Relationship="CakeShopModel.FK_tblOrderDetail_tblCake" FromRole="tblCake" ToRole="tblOrderDetail" />
+  </EntityType>
+  <EntityType Name="tblCategory">
+    <Key>
+      <PropertyRef Name="categoryId" />
+    </Key>
+    <Property Name="categoryId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="Boolean" />
+    <NavigationProperty Name="tblCakes" Relationship="CakeShopModel.FK_tblCake_tblCategory" FromRole="tblCategory" ToRole="tblCake" />
+  </EntityType>
+  <EntityType Name="tblCustomer">
+    <Key>
+      <PropertyRef Name="customerId" />
+    </Key>
+    <Property Name="customerId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fullname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="birthday" Type="DateTime" Precision="0" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="enable" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tblOrders" Relationship="CakeShopModel.FK_tblOrder_tblCustomer" FromRole="tblCustomer" ToRole="tblOrder" />
+  </EntityType>
+  <EntityType Name="tblOrder">
+    <Key>
+      <PropertyRef Name="orderID" />
+    </Key>
+    <Property Name="orderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cusID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="Boolean" />
+    <NavigationProperty Name="tblCustomer" Relationship="CakeShopModel.FK_tblOrder_tblCustomer" FromRole="tblOrder" ToRole="tblCustomer" />
+    <NavigationProperty Name="tblOrderDetails" Relationship="CakeShopModel.FK_tblOrderDetail_tblOrder" FromRole="tblOrder" ToRole="tblOrderDetail" />
+  </EntityType>
+  <EntityType Name="tblOrderDetail">
+    <Key>
+      <PropertyRef Name="orderId" />
+      <PropertyRef Name="cakeId" />
+    </Key>
+    <Property Name="orderId" Type="Int32" Nullable="false" />
+    <Property Name="cakeId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="quantity" Type="Int32" />
+    <NavigationProperty Name="tblCake" Relationship="CakeShopModel.FK_tblOrderDetail_tblCake" FromRole="tblOrderDetail" ToRole="tblCake" />
+    <NavigationProperty Name="tblOrder" Relationship="CakeShopModel.FK_tblOrderDetail_tblOrder" FromRole="tblOrderDetail" ToRole="tblOrder" />
+  </EntityType>
+  <EntityType Name="tblShop">
+    <Key>
+      <PropertyRef Name="shopID" />
+    </Key>
+    <Property Name="shopID" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="shopAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_tblCake_tblCategory">
+    <End Type="CakeShopModel.tblCategory" Role="tblCategory" Multiplicity="0..1" />
+    <End Type="CakeShopModel.tblCake" Role="tblCake" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCategory">
+        <PropertyRef Name="categoryId" />
+      </Principal>
+      <Dependent Role="tblCake">
+        <PropertyRef Name="categoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblOrderDetail_tblCake">
+    <End Type="CakeShopModel.tblCake" Role="tblCake" Multiplicity="1" />
+    <End Type="CakeShopModel.tblOrderDetail" Role="tblOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCake">
+        <PropertyRef Name="cakeId" />
+      </Principal>
+      <Dependent Role="tblOrderDetail">
+        <PropertyRef Name="cakeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblOrder_tblCustomer">
+    <End Type="CakeShopModel.tblCustomer" Role="tblCustomer" Multiplicity="0..1" />
+    <End Type="CakeShopModel.tblOrder" Role="tblOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCustomer">
+        <PropertyRef Name="customerId" />
+      </Principal>
+      <Dependent Role="tblOrder">
+        <PropertyRef Name="cusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblOrderDetail_tblOrder">
+    <End Type="CakeShopModel.tblOrder" Role="tblOrder" Multiplicity="1" />
+    <End Type="CakeShopModel.tblOrderDetail" Role="tblOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblOrder">
+        <PropertyRef Name="orderID" />
+      </Principal>
+      <Dependent Role="tblOrderDetail">
+        <PropertyRef Name="orderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

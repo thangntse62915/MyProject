@@ -1,0 +1,18 @@
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\Data\bin\Debug\Data.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\Data\bin\Debug\Data.pdb
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\Data\obj\Debug\Data.dll
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\Data\obj\Debug\Data.pdb
+C:\Users\THANG NGUYEN\Downloads\CakeManager\CakeManager\Data\obj\Debug\Data.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\Data\bin\Debug\Data.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\Data\bin\Debug\Data.pdb
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\Data\obj\Debug\Data.csprojAssemblyReference.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\Data\obj\Debug\Data.dll
+D:\Users\ASUS\Desktop\CakeManager\CakeManager\Data\obj\Debug\Data.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\Data\bin\Debug\Data.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\Data\bin\Debug\Data.pdb
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\Data\obj\Debug\Data.dll
+C:\Users\THANG NGUYEN\Desktop\CakeManager\CakeManager\Data\obj\Debug\Data.pdb
