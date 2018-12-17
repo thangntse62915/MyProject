@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 15, 2018, 8:47:49 PM
+    Author     : THANG NGUYEN
+*/
+
+
+*{margin: 0;
+  padding: 0;
+
+}
+body{
+    background-color: #ebe6e6;
+}.infomation{
+    width: 1280px;
+
+    margin-left: auto;
+    margin-right: auto;
+   
+}.dashboard{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+.header{
+    width: 1280px;
+    height: 150px;
+
+}
+.info{
+    width:150px;
+    height: 50px;
+    float: left;
+    margin-left: 890px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+.logout{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 14px;
+    text-decoration: none;
+}.header a:hover{
+    color: black;
+}.left{
+    width: 400px;
+    height: 500px;
+
+
+    float: left;
+
+    text-align: center;
+
+}.right{
+    width: 800px;
+    height: 500px;
+    margin-left: 60px;
+
+    float: left;
+}.upload{
+    position: relative;
+    width: 240px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: appworkspace;
+}
+.upload>img{
+    position:absolute;
+    left: 0;
+    top: 0;
+
+}
+.upload_img{
+    position:absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    opacity: 0;
+}.upload_img input{
+    width: 240px;
+    height: 300px;
+
+}.upload_buton{
+    width: 50px;
+    height: 33px;
+    margin-top: 20px;
+}table td   {
+
+    height: 50px;
+}
+table input{
+    width: 200px;
+    height: 20px;
+}table{
+    margin-top: 10px;
+    margin-left: 140px;
+
+}table td{
+    margin-left: 20px;
+
+}font{
+    font-size: 12px;
+    padding-left: 4px;
+}
