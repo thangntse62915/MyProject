@@ -1,0 +1,921 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> WCSHOP</title>
+        <link rel="stylesheet" type="text/css" href="css/women.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <script>
+            var t = 0;
+            function buyproduct() {
+                if (t == 0)
+                    document.getElementById("buy_product").setAttribute("class", "buytmp1");
+                else
+                    document.getElementById("buy_product").setAttribute("class", "buytmp2")
+
+            }
+            function myFunction() {
+
+                if (t < 10) {
+                    t++;
+                    buyproduct()
+                    document.getElementById("buy_product").innerHTML = t;
+                    alert("Add successfull");
+                } else {
+
+                    alert("Cart is full");
+                }
+
+
+            }
+        </script>
+
+    </head>
+
+    <body onscroll="doi()">
+        <div id="main_box">
+            <div id="main_title">
+
+                <a><i class="fa fa-phone" > </i> Hotline 09123456789</a>
+                <a><i class="fa fa-envelope"></i> mwshop@gmail.com</a>
+                <div>
+
+                    <a style="width:50px;" class="login_title">Login</a>
+                    <div  class="login_box">  
+                        <table width="300" border="0" style="text-align:center">
+                            <tr>
+                                <td width="286" height="42" style="text-align:center">
+
+                                    <img src="img/logo.png" width="90" height="40">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="126">
+                                    <form method="post" style="line-height:30px;">
+                                        <input type="text" placeholder="Email..." size="30" style="width:250px;height:23px; font-size:12px" name="name" required>
+                                        <input type="password" placeholder="Password..." size="30" style="width:250px;height:23px; font-size:12px;" name="password" required>
+                                        <button type="submit" name="login" style="margin-top:5px; background-color:#3398CC; width:150px ;color:#FFF; border-radius:5px;outline:none;">LOGIN </button><br/>
+                                        <button type="button" name="fogot" style="outline:none;border:none;background-color:#fff">
+                                            <a href="#" style="text-decoration:none;font-size:12px;"> Forgot your password ?</a>
+                                        </button>
+                                    </form>      
+                            </tr>
+                            <tr>
+                                <td height="15" style="font-size:13px ; color:#600">--------- OR ---------</td>
+                            </tr>
+                            <tr>
+                                <td height="38" style="padding-bottom:8px;">
+                                    <button type="button" style="width:270px; height:40px;background-color:#DA4D31;">	
+                                        <a href="#" style=" text-decoration:none; font-size:13px;color:#fff ; font-family:'Arial Black', Gadget, sans-serif; " > 
+                                            <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i> SIGN IN WITH GOOGLE </a>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="42"><button type="button" style="width:270px; height:40px;background-color:#49639C;">	
+                                        <a href="#" style=" text-decoration:none; font-size:12px;color:#fff ; font-family:'Arial Black', Gadget, sans-serif; " > 
+                                            <i class="fa fa-facebook-f fa-2x" aria-hidden="true"> </i> SIGN IN WITH FACEBOOK</a>
+                                    </button>
+
+
+                                </td>
+                            </tr>
+                        </table>  
+                    </div>   
+                </div>
+                <div style="position:absolute;right:50px;"><a href="Register.html" style=" text-decoration:none;color:#FFF" >Register</a></div>
+            </div>
+            <header> 
+                <div class="logo"><a href="home.html"> <img src="img/logo.png" width="189" height="80"></a></div>
+                <div class="search_box">
+                    <input type="search" placeholder="Search....." id="search">
+                    <button type="submit" id= "button_search"> 
+                        <i class="fa fa-search" style=""></i>
+                    </button>   
+
+                </div>
+                <div class= "cart" ><img src="img/cart.png" width="96" height="21"> <div id="buy_product" class="buytmp1"></div></div>
+            </header>
+            <div id="detail_id" class="detail">
+                <ul>
+                    <li class="drop-down-menu detail_menu"><a href="News.html">NEWS</a>
+                    <li class= "drop-down-menu detail_menu" style="background-color:#666;  ">
+                        <a href="men.html" style="line-height:40px;color:#FFF;">MEN 
+                            <i class="fa fa-chevron-down xoay " aria-hidden="true" style="font-size:10px"></i>
+                        </a>
+                        <div class="drop-down ">
+                            <div class="drop-down-item">Sneakers</div>
+                            <div class="drop-down-item">Sandals</div>
+                            <div class="drop-down-item">Boots</div>
+                            <div class="drop-down-item">Loafers</div>
+                            <div class="drop-down-item">Oxfords</div>
+                        </div>                  
+                    </li>         
+
+                    <li class= "drop-down-menu detail_menu" ><a href="women.html" style="line-height:40px;">WOMEN 
+                            <i class="fa fa-chevron-down xoay " aria-hidden="true" style="font-size:10px"></i>
+                        </a>
+                        <div class="drop-down">
+                            <div class="drop-down-item">Sneaker</div>
+                            <div class="drop-down-item">Flats</div>
+                            <div class="drop-down-item">Heels</div>
+                            <div class="drop-down-item">Boots</div>
+                            <div class="drop-down-item">Mules</div>
+
+                        </div>                  
+                    </li>         <li class= "drop-down-menu detail_menu"><a href="kid.html" style="line-height:40px;">KID 
+                            <i class="fa fa-chevron-down xoay " aria-hidden="true" style="font-size:10px"></i>
+                        </a>
+                        <div class="drop-down ">
+                            <div class="drop-down-item">Angel's Face</div>
+                            <div class="drop-down-item">Aigle</div>
+                            <div class="drop-down-item">Boss</div>
+                            <div class="drop-down-item">Catimini</div>
+                            <div class="drop-down-item">Converse</div>
+
+                        </div>                  
+                    </li>         <li class= "drop-down-menu detail_menu"><a href="brand.html" style="line-height:40px;">BRANDS 
+                            <i class="fa fa-chevron-down xoay " aria-hidden="true" style="font-size:10px"></i>
+                        </a>
+                        <div class="drop-down add_drop_down ">
+                            <div class="drop-down-item">Coach</div>
+                            <div class="drop-down-item">Brooks</div>
+                            <div class="drop-down-item">Nine Westr</div>
+                            <div class="drop-down-item">Ugg</div>
+                            <div class="drop-down-item">Oakley</div>
+                            <div class="drop-down-item">ASICS</div>
+                            <div class="drop-down-item">Nike</div>
+                            <div class="drop-down-item">UGG</div>
+
+                        </div>                  
+                    </li>      
+					<li class="drop-down-menu detail_menu"><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div> 
+            
+            <div class="list_sp" > 
+                 <div class="title_list_sp">Sort By:<a> Newest </a>| <a> Most Popular </a>|<a> Lowest Price </a>|<a> Highest Price%</a>|<a> %Off </a></div>
+                <hr style="width:30%; margin-left:auto;margin-right:auto; margin-bottom:-100px;">
+                <table width="1280" border="0" style="margin-left:auto; margin-right:auto;margin-top:100px;" >
+                    <tr>
+                        <td width="348" height="353">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	
+                                        <img src="img/imgmen/m1.jpg" width="160" height="120">
+                                    </div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Carnaby EVO 217</h3>
+                                        <ul>
+                                            <li>Color:WHITE</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+
+                                    
+                                    <div class="price"> $50 </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Carnaby EVO 217</div>
+                                    <div class="info_sp_sku">SKU: #8635640</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size 11 | Width M</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 12oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 2 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a>$50</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-51" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-51"></label>
+                                        <input class="star star-4" id="star-41" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-41"></label>
+                                        <input class="star star-3" id="star-31" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-31"></label>
+                                        <input class="star star-2" id="star-21" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-21"></label>
+                                        <input class="star star-1" id="star-11" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-11"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td width="348">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	<img src="img/imgmen/m2.jpg" width="160" height="120"></div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Mezlan Boheme II</h3>
+                                        <ul>
+                                            <li>Color:Black</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sale_off">SALE 30%</div>
+                                    <div class="price"> $41.5 <del>$65</del> </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Mezlan Boheme II</div>
+                                    <div class="info_sp_sku">SKU: #8635640</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size(US):11 | Width:D</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 15oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 3 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a>$41.5</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-52" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-52"></label>
+                                        <input class="star star-4" id="star-42" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-42"></label>
+                                        <input class="star star-3" id="star-32" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-32"></label>
+                                        <input class="star star-2" id="star-22" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-22"></label>
+                                        <input class="star star-1" id="star-12" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-12"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td width="348">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	<img src="img/imgmen/m3.jpg" width="160" height="120"></div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Prince Loafer</h3>
+                                        <ul>
+                                            <li>Color:Black/White</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="price"> $210</div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Del Toro Prince Loafer</div>
+                                    <div class="info_sp_sku">SKU: #8866004</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size:12 | Width:M</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 14oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 3 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a >$210</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-53" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-53"></label>
+                                        <input class="star star-4" id="star-43" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-43"></label>
+                                        <input class="star star-3" id="star-33" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-33"></label>
+                                        <input class="star star-2" id="star-23" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-23"></label>
+                                        <input class="star star-1" id="star-13" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-13"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="348" height="353">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	
+                                        <img src="img/imgmen/m4.jpg" width="160" height="120">
+                                    </div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before"> Rush Winston</h3>
+                                        <ul>
+                                            <li>Color:Black</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="sale_off">SALE 20%</div>
+                                    <div class="price"> $200 <del>$250</del> </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Gordon Rush Winston</div>
+                                    <div class="info_sp_sku">SKU: #8927458</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size 11 | Width M</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 14soz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 2 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a>$200</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-54" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-54"></label>
+                                        <input class="star star-4" id="star-44" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-44"></label>
+                                        <input class="star star-3" id="star-34" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-34"></label>
+                                        <input class="star star-2" id="star-24" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-24"></label>
+                                        <input class="star star-1" id="star-14" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-14"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td width="348">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	<img src="img/imgmen/m5.jpg" width="160" height="120"></div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Frye Lewis Tie</h3>
+                                        <ul>
+                                            <li>Color:Tan</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sale_off">SALE 45%</div>
+                                    <div class="price"> $54 <del>$95</del> </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Frye Lewis Tie</div>
+                                    <div class="info_sp_sku">SKU: #8926405</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size(US)9 | Width:M</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 11oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 3 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a>$54</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-55" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-55"></label>
+                                        <input class="star star-4" id="star-45" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-45"></label>
+                                        <input class="star star-3" id="star-352" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-35"></label>
+                                        <input class="star star-2" id="star-25" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-25"></label>
+                                        <input class="star star-1" id="star-15" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-15"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td width="348">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	<img src="img/imgmen/m6.jpg" width="160" height="120"></div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before"> Cross Lace</h3>
+                                        <ul>
+                                            <li>Color:Navy/Stone</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="price"> $72.9 </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Cross Lace</div>
+                                    <div class="info_sp_sku">SKU: #8874757</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size:8 | Width:M</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 11oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 3 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a >$72.9</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-561" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-56"></label>
+                                        <input class="star star-4" id="star-46" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-46"></label>
+                                        <input class="star star-3" id="star-36" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-36"></label>
+                                        <input class="star star-2" id="star-26" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-26"></label>
+                                        <input class="star star-1" id="star-16" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-16"></label>
+                                    </form>
+
+                                   <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="348" height="353">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	
+                                        <img src="img/imgmen/m7.jpg" width="160" height="120">
+                                    </div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Dock Ariaprene</h3>
+                                        <ul>
+                                            <li>Color:Navy</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="sale_off">NEW</div>
+                                    <div class="price"> $99.99 </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Sebago D.Ariaprenel</div>
+                                    <div class="info_sp_sku">SKU: #8958210</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size 9 | Width M</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 11oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 2 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a>$99.99</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-57" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-57"></label>
+                                        <input class="star star-4" id="star-47" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-47"></label>
+                                        <input class="star star-3" id="star-37" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-37"></label>
+                                        <input class="star star-2" id="star-27" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-27"></label>
+                                        <input class="star star-1" id="star-17" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-17"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td width="348">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	<img src="img/imgmen/m8.jpg" width="160" height="120"></div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Gemini </h3>
+                                        <ul>
+                                            <li>Color:Cardinal</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sale_off">SALE 20%</div>
+                                    <div class="price"> $80 <del>$100</del> </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Speedform™ Gemini 2</div>
+                                    <div class="info_sp_sku">SKU: #8864701</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size(US):10.5 | Width:D</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 10oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 3 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a>$80</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-58" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-58"></label>
+                                        <input class="star star-4" id="star-48" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-48"></label>
+                                        <input class="star star-3" id="star-38" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-38"></label>
+                                        <input class="star star-2" id="star-28" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-28"></label>
+                                        <input class="star star-1" id="star-18" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-18"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td width="348">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	<img src="img/imgmen/m9.jpg" width="160" height="120"></div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Explorateur </h3>
+                                        <ul>
+                                            <li>Color:Navy</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+
+
+
+
+
+                                    <div class="sale_off">NEW</div>
+                                    <div class="price">$40</div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Lacoste Explorateur</div>
+                                    <div class="info_sp_sku">SKU: #8941905</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size:11 | Width:D</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 11oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 3 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a >$40</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-59" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-59"></label>
+                                        <input class="star star-4" id="star-49" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-49"></label>
+                                        <input class="star star-3" id="star-39" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-39"></label>
+                                        <input class="star star-2" id="star-29" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-29"></label>
+                                        <input class="star star-1" id="star-19" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-19"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="348" height="353">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	
+                                        <img src="img/imgmen/m10.jpg" width="160" height="120">
+                                    </div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Lacoste Straightse</h3>
+                                        <ul>
+                                            <li>Color:Black</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="sale_off">SALE 10%</div>
+                                    <div class="price"> $79 <del>$88</del> </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Lacoste Straightse</div>
+                                    <div class="info_sp_sku">SKU: #8635640</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size 11 | Width D</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 1lb 1oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 2 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a>$79</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-510" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-510"></label>
+                                        <input class="star star-4" id="star-410" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-410"></label>
+                                        <input class="star star-3" id="star-310" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-310"></label>
+                                        <input class="star star-2" id="star-210" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-210"></label>
+                                        <input class="star star-1" id="star-110" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-110"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td width="348">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	<img src="img/imgmen/m11.jpg" width="160" height="120"></div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before">Ignite Netfit</h3>
+                                        <ul>
+                                            <li>Color:Blue</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="price"> $41.5 </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">PUMA Ignite Netfit</div>
+                                    <div class="info_sp_sku">SKU: #8635640</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size(US):11 | Width:D</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 9 oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 3 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a>$41.5</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-521" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-521"></label>
+                                        <input class="star star-4" id="star-421" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-421"></label>
+                                        <input class="star star-3" id="star-321" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-321"></label>
+                                        <input class="star star-2" id="star-221" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-221"></label>
+                                        <input class="star star-1" id="star-121" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-121"></label>
+                                    </form>
+
+                                    <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td width="348">
+
+                            <div class="box_info_sp">	
+
+                                <div class="img_sp">
+
+                                    <div class="img_sp_img">	<img src="img/imgmen/m12.jpg" width="160" height="120"></div> 
+                                    <div class="img_sp_info">
+                                        <h3 class="img_sp_info_before" >LTR.01 217 1</h3>
+                                        <ul>
+                                            <li>Color:White</li>
+                                            <li>For :MEN</li>
+                                            <li>Make in:USA</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sale_off">NEW</div>
+                                    <div class="price"> $40 </div>
+
+                                </div>	
+
+                                <div class="info_sp">
+                                    <div class="info_sp_title">Lacoste LTR.01 217 1</div>
+                                    <div class="info_sp_sku">SKU: #8941905</div>
+                                    <hr width="40%" style="margin-left:auto;margin-right:auto ;margin-bottom:5px;">
+                                    <ul class="info_sp_main">
+                                        <li>Size:11 | Width:D</li>
+                                        <li>Material: Textile</li>
+                                        <li>Weight: 10oz</li>
+                                        <li>Made in the United States</li>
+                                        <li>Warranty Period 3 Months</li>
+                                        <li>Local supplier warranty</li>
+
+
+                                    </ul>
+                                    <a >$40</a>
+                                    <form action="" style="text-align:right" class="info_form">
+                                        <input class="star star-5" id="star-512" type="radio" name="star"/>
+                                        <label class="star star-5" for="star-512"></label>
+                                        <input class="star star-4" id="star-412" type="radio" name="star"/>
+                                        <label class="star star-4" for="star-412"></label>
+                                        <input class="star star-3" id="star-312" type="radio" name="star"/>
+                                        <label class="star star-3" for="star-312"></label>
+                                        <input class="star star-2" id="star-212" type="radio" name="star"/>
+                                        <label class="star star-2" for="star-212"></label>
+                                        <input class="star star-1" id="star-112" type="radio" name="star"/>
+                                        <label class="star star-1" for="star-112"></label>
+                                    </form>
+
+                                   <button type="submit" onClick="myFunction()">Add to cart</button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+
+        <footer>   
+            <div class="footer-menu">
+                <b> Customer Service</b>
+                <ul>
+                    <li>Safe Shopping Guarantee</li>
+                    <li>Forgot Password</li>
+                    <li>Shipping Rates</li>
+                    <li>Return Policy</li>
+                    <li>FAQs</li>
+                    <li>Contact Infoy</li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+
+                <b>Shopping</b>
+                <ul>
+                    <li>Vomens</li>
+                    <li>Mens</li>
+                    <li>Kids</li>
+                    <li>Brands</li>         
+                </ul>
+            </div>
+            <div class="footer-menu">
+
+                <b> My Account</b>
+                <ul>
+                    <li>Login/Register</li>
+                    <li>My Account</li>
+                    <li>Order Status</li>
+                    <li>Order History</li>
+                    <li>Track My Order</li>           
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <b>Infomation</b>
+                <ul>
+                    <li>About</li>
+                    <li>Site Map</li>
+                    <li>Coupons</li>
+                    <li>Find us on:</li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank"> <i class="fa fa-youtube-play fa-lg" aria-hidden="true" style="					                                                                                 color:red;"></i></a> 
+                        <a href="https://www.facebook.com/www.mwc.vn/" target="_blank"> <i class="fa fa-facebook-official fa-lg" aria-hidden="true" style="color:#03C"></i></a> 
+                        <a href="https://twitter.com/?lang=en" target="_blank"> <i class="fa fa-twitter-square fa-lg" aria-hidden="true" style="color:#06F" ></i></a>	
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu">   
+                <b>Resources</b>
+                <ul>
+                    <li> Associate Program</li>
+                    <div class ="feedback">
+
+                        <strong style="color:#000">How Do You Like Our Website ? </strong>
+                        <br/>We'd like to get your <a href="#" style="font-size:16px;color:#000">feedback</a>.
+                    </div>
+                </ul>
+            </div> 
+            <div  class="service"> 
+                <a href="#">Terms Of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Interest-Based Ads </a> 
+                | <a href="#">welg</a>
+            </div>
+            <div class="icon-card">
+                <a href="home.html"> <img src="img/card/download.png" width="40" > </a>
+                <a href="home.html"> <img src="img/card/images.jpg" width="40" > </a>
+
+                <a href="home.html"> <img src="img/card/download (1).png" width="40" > </a>
+                <a href="home.html"> <img src="img/card/download.png" width="40" > </a>
+            </div>
+            <div class="footer-bot">
+                <p> © 2009-2017 mwc.com, Inc. or its affiliates, 400  Avenue. Califonia NV 89101</p>
+                <p>5pm.com is operated by ABC, Inc. Products on 8pm.com are sold by  DEF shop.</p>
+                <p> 
+                    For premier service, selection, and shipping, visit <a href="#"  style="color:#999" >Abc.com</a> — your one-stop shop for 	the latest in 
+                    <a href="#" style="color:#999">Shoes</a> , <a href="#" style="color:#999"> Shadals</a>
+                <p>
+                    For luxury and designer styles by  <a href="#" style="color:#999;" >T&T</a> 
+                </p>
+
+            </div>
+        </footer>
+    </body>
+</html>
